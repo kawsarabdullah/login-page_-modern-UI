@@ -103,7 +103,11 @@ body{
     color: rgb(41, 14, 138);
 }
 
-
+@keyframes rotate{
+    100%{
+        background-position: 15% 50%;
+    }
+}
 
 @media (width >= 500px){
     body{
